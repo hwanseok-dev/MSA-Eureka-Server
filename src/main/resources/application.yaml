@@ -9,6 +9,8 @@ eureka:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
 
+
+# To make Eureka DashBoard Come Up
 spring :
   freemarker :
     template-loader-path: classpath:/templates/
